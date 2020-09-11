@@ -1,0 +1,41 @@
+/* Styles for page, started with inspiration from Mitchell's starter page, then altered for my own use */
+
+body {
+    margin: 0;
+    font: Arial;
+    font-size: 18px;
+}
+
+nav, footer, main > section {
+    overflow: auto;
+}
+
+main > section:not(#Murky_banner) {
+    min-height: 50vh;
+}
+
+/* Section background colors */
+
+#nav {
+    background-color: green;
+}
+
+#Murky_banner {
+    background-color: yellow;
+}
+
+#Talents {
+    background-color: blue;
+}
+
+#LaningPhase {
+    background-color: red;
+}
+
+#Teamfights {
+    background-color: purple;
+}
+
+#twitch_contact {
+    background-color: lightpink;
+}
