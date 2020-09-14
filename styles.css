@@ -77,6 +77,11 @@ nav > ul {
 #Talents h3 {
     color: yellowgreen;
     text-align: center;
+    font-size: 2em;
+    padding: 1em;
+    background-color: black;
+    margin: 0;
+   
 }
 
 #Talents ul {
@@ -106,13 +111,101 @@ nav > ul {
 }
 
 #LaningPhase {
-    background-color: red;
+    background-color: black;
+    color: yellowgreen;
+    border-width: 2px 0px 2px 0px;
+    border-color: yellowgreen;
+    border-style: solid;
+}
+
+#LaningPhase h3 {
+    text-align: center;
+    color: greenyellow;
+    font-size: 2em;
+}
+
+#LaningPhase ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.topic {
+    width: 1000px;
+    margin: 1em;
+    border-width: 2px 0px;
+    border-color: greenyellow;
+    border-style: solid;
+}
+.topic img {
+    width: 100%;
 }
 
 #Teamfights {
-    background-color: purple;
+    background-color: rgb(73, 72, 72);
+    
+    
+    
+}
+
+#Teamfights li{
+    display: flex;
+    flex-direction: column;
+    padding: .25em;
+    margin: 1em;
+    color: greenyellow;
+}
+#Teamfights li:nth-child(odd) {
+    color: #eee;
+    list-style: square;
+    align-items: flex-end;
+    background-color: rgb(37, 37, 37);
+}
+
+#Teamfights h3 {
+    text-align: center;
+    color: yellowgreen;
 }
 
 #twitch_contact {
-    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#twitch_contact img{
+    width: 100px;
+}
+#twitch_contact h4 {
+    font-size: 20px;
+}
+#twitch_contact a {
+    color: blue;
+    text-decoration: none;
+}
+label {
+    margin: 1em;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+input, textarea {
+    border: 2px solid black;
+    padding: 0.5em;
+    margin: 0 2em 0 0;
+    width: 20em;
+}
+textarea {
+    height: 9em;
+    margin: 0;
+    
+}
+span {
+    font-family: sans-serif;
 }
