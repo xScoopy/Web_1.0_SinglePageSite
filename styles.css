@@ -9,10 +9,11 @@ body {
 nav, footer, main > section {
     overflow: auto;
 }
-
+/*Giving each section besides the banner a min height of half the screen*/
 main > section:not(#Murky_banner) {
     min-height: 50vh;
 }
+/*nav bar styling, making them look like buttons*/
 nav > h1 {
     align-self: center;
     text-decoration: none;
@@ -48,7 +49,7 @@ nav > ul {
     background-size: contain;
     background-position: center;
 }
-
+/*Banner styles*/
 #Murky_banner {
     background-color: rgb(18, 16, 117);
     background-image: url(WEB_images/Murky_namepic.png);
@@ -68,7 +69,7 @@ nav > ul {
     color: greenyellow;
     align-self: center;
 }
-
+/*Talent Section*/
 #Talents {
     background-color: blue;
     background-image: url(WEB_images/HoTS_logo.jpeg);
@@ -109,7 +110,7 @@ nav > ul {
 .card p{
     padding: .25em;
 }
-
+/*Laning Phase section*/
 #LaningPhase {
     background-color: black;
     color: yellowgreen;
@@ -143,12 +144,9 @@ nav > ul {
 .topic img {
     width: 100%;
 }
-
+/*Teamfight section*/
 #Teamfights {
-    background-color: rgb(73, 72, 72);
-    
-    
-    
+    background-color: rgb(73, 72, 72);  
 }
 
 #Teamfights li{
@@ -169,12 +167,13 @@ nav > ul {
     text-align: center;
     color: yellowgreen;
 }
-
+/*Contact info section*/
 #twitch_contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(WEB_images/Screen\ Shot\ 2020-09-13\ at\ 7.31.25\ PM.png);
 }
 
 #twitch_contact img{
@@ -192,14 +191,14 @@ label {
 }
 form {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    align-items: flex-end;
 }
 input, textarea {
     border: 2px solid black;
     padding: 0.5em;
     margin: 0 2em 0 0;
     width: 20em;
+    
 }
 textarea {
     height: 9em;
@@ -208,4 +207,14 @@ textarea {
 }
 span {
     font-family: sans-serif;
+}
+form button {
+    font-size: 1em;
+    margin: 1em;
+    align-self: flex end;
+    padding: 0 1em;
+    background-color: black;
+    border: 4px solid yellowgreen;
+    border-radius: 5px;
+    color: yellowgreen;
 }
