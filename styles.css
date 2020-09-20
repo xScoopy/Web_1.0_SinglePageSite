@@ -167,6 +167,41 @@ nav > ul {
     text-align: center;
     color: yellowgreen;
 }
+/*Experience globe section*/
+#experience{
+    background-color: black;
+    color: yellowgreen;
+    border-width: 2px 0px 2px 0px;
+    border-color: yellowgreen;
+    border-style: solid;
+}
+#experience > h3{
+    text-align: center;
+}
+#experience ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+#experience li{
+    padding: 1em;
+    margin: 0, 1em, 0, 1em;
+}
+#experience li:nth-child(1){
+    width: 66vw;
+    height: auto;
+}
+#experience li:nth-child(2){
+    width: 33vw;
+    height: auto;
+}
+#experience img{
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+}
+
 /*Contact info section*/
 #twitch_contact {
     display: flex;
