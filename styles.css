@@ -189,11 +189,11 @@ nav > ul {
     margin: 0, 1em, 0, 1em;
 }
 #experience li:nth-child(1){
-    width: 66vw;
+    flex: 2;
     height: auto;
 }
 #experience li:nth-child(2){
-    width: 33vw;
+    flex: 1;
     height: auto;
 }
 #experience img{
